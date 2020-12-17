@@ -1,0 +1,556 @@
+[03-Aug-2018 11:11:44 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home2/amnagini/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
+[03-Aug-2018 11:18:52 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home2/amnagini/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
+[03-Aug-2018 11:20:04 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/amnagini/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
+[03-Aug-2018 14:08:54 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home2/amnagini/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
+[03-Aug-2018 14:10:10 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 8192 bytes) in /home2/amnagini/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
+[14-Aug-2018 15:44:46 UTC] PHP Fatal error:  Allowed memory size of 268435456 bytes exhausted (tried to allocate 32768 bytes) in /home2/amnagini/vendor/intervention/image/src/Intervention/Image/Gd/Decoder.php on line 136
+[14-Aug-2018 20:15:20 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:20 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:20 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:20 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:15:23 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:23 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:23 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:15:32 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:32 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:32 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:15:32 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:16:08 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:16:08 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:16:08 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:16:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:16:12 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:16:12 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:16:12 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:16:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:18:06 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:18:06 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:18:06 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:18:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:18:23 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:18:23 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:18:23 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:18:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:19:13 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:19:13 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:19:13 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:19:13 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:23:16 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:23:16 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:23:16 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:23:16 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 20:23:19 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:23:19 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:23:19 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 20:23:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[14-Aug-2018 22:55:50 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 22:55:50 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 22:55:50 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[14-Aug-2018 22:55:50 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 00:36:36 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 00:36:36 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 00:36:36 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 00:36:36 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 01:19:40 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 01:19:40 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 01:19:40 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 01:19:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 03:00:35 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:35 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:35 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:35 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 03:00:37 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:37 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:37 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:37 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 03:00:51 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:51 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:51 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 03:00:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 04:39:44 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 04:39:44 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 04:39:44 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 04:39:44 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 07:38:14 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 07:38:14 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 07:38:14 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 07:38:14 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 07:38:23 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 07:38:23 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 07:38:23 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 07:38:23 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:44:12 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:12 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:12 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:12 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:44:26 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:26 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:26 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:26 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:44:28 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:28 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:28 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:28 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:44:41 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:41 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:41 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:41 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:44:45 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:45 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:45 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:44:45 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:45:06 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:45:06 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:45:06 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:45:06 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:46:00 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:46:00 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:46:00 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:46:00 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 08:54:55 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:54:55 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:54:55 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 08:54:55 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:12:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:12:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:12:47 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:12:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:23:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:23:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:23:47 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:23:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:27:18 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:18 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:18 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:27:19 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:19 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:19 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:19 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:27:21 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:21 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:21 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:21 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:27:22 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:22 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:22 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:27:22 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:47:31 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:47:31 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:47:31 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:47:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 09:54:40 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:54:40 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:54:40 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 09:54:40 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 11:52:10 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:52:10 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:52:10 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:52:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 11:53:18 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:18 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:18 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:18 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 11:53:30 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:30 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:30 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:30 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 11:53:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:47 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:53:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 11:57:31 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:57:31 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:57:31 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 11:57:31 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:00:07 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:00:07 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:00:07 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:00:07 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:00:08 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:00:08 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:00:08 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:00:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:01:09 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:09 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:09 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:09 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:01:10 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:10 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:10 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:10 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:01:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:47 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:47 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:47 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:01:51 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:51 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:51 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:01:51 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 12:02:03 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:02:03 UTC] PHP Warning:  include(/home2/amnagini/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:02:03 UTC] PHP Warning:  include(): Failed opening '/home2/amnagini/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/vendor/composer/ClassLoader.php on line 444
+[15-Aug-2018 12:02:03 UTC] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php:752
+Stack trace:
+#0 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(752): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(631): Illuminate\Container\Container->build('App\\Http\\Kernel')
+#2 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(586): Illuminate\Container\Container->resolve('App\\Http\\Kernel', Array)
+#3 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(732): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#4 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(256): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#5 /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php(749): Illuminate in /home2/amnagini/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 752
+[15-Aug-2018 17:10:18 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:10:18 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:10:18 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:18:19 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:18:19 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:18:19 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:22:20 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:22:20 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 17:22:20 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 19:54:31 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 19:54:31 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 19:54:31 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 21:33:42 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 21:33:42 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 21:33:42 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 22:34:56 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 22:34:56 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 22:34:56 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 23:13:52 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 23:13:52 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 23:13:52 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 23:59:20 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 23:59:20 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[15-Aug-2018 23:59:20 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 02:27:37 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 02:27:37 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 02:27:37 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 02:32:14 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 02:32:14 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 02:32:14 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 03:41:46 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 03:41:46 UTC] PHP Warning:  require(/home2/amnagini/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home2/amnagini/public_html/index.php on line 24
+[16-Aug-2018 03:41:46 UTC] PHP Fatal error:  require(): Failed opening required '/home2/amnagini/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php72/usr/share/pear') in /home2/amnagini/public_html/index.php on line 24

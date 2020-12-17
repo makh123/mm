@@ -1,0 +1,23 @@
+<?php
+return [
+    'Latest News'=>'Latest News',
+    'Latest Articles'=>'Latest Articles',
+    'Services'=>'Services',
+    'ContactUs'=>'Contact Us',
+    'PhoneNumber'=>'PhoneNumber',
+    'email'=>'email',
+    'more'=>'more',
+    'address'=>'address',
+    'about AmnAgin'=>'about AmnAgin',
+    'submit'=>'submit',
+    'login'=>'login',
+    'register'=>'register',
+    'collaboration'=>'collaboration',
+    'KnowledgeBase'=>'KnowledgeBase',
+    'Home'=>'Home',
+    'aboutUs'=>'aboutUs',
+    'name and family'=>'name and family',
+    'subject'=>'subject',
+    'message'=>'message',
+    'search'=>'search',
+];
